@@ -31,6 +31,7 @@ jobs:
         with:
           # This is a placeholder, please replace it with your Anthropic API key
           anthropic_api_key: ${{ secrets.ANTHROPIC_API_KEY }}
+          github_token: ${{ secrets.GITHUB_TOKEN }}
           prompt: |
             Please review the changes in this pull request.
             Focus on:
